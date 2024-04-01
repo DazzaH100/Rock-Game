@@ -14,6 +14,11 @@ body, html {
     color: #333; /* This is a dark gray color, which generally offers good visibility */
 }
 
+header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
 @keyframes GradientAnimation {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
