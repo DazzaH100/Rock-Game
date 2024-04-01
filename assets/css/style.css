@@ -11,7 +11,7 @@ body, html {
     background: linear-gradient(45deg, #ff9a8b, #ff6a88, #ff99ac, #fbc2eb, #a18cd1); 
     background-size: 200% 200%; /* Larger background size for a smoother gradient transition */
     animation: GradientAnimation 15s ease infinite; /* Animated gradient effect */
-    color: #ffffff; /* White text color for better contrast against the vibrant background */
+    color: #333; /* This is a dark gray color, which generally offers good visibility */
 }
 
 @keyframes GradientAnimation {
@@ -21,12 +21,15 @@ body, html {
 }
 
 #game {
+    h1 {
+        color: #1a1a1a; /* Darker color for the main heading */
     width: 80%;
     max-width: 600px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow around the game container */
     background: rgba(255, 255, 255, 0.8); /* Slightly transparent white for the game container */
     border-radius: 10px; /* Rounded corners for the game container */
+    }
 }
 
 #choices button {
