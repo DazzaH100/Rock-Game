@@ -25,6 +25,19 @@ header h1 {
     100% { background-position: 0% 50%; }
 }
 
+#instructions-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#how-to-play {
+    flex: 1; /* Take up half the space */
+    padding-right: 20px; /* Add some spacing between the instructions and the game */
+    text-align: left;
+}
+
 #game {
     h1 {
         color: #1a1a1a; /* Darker color for the main heading */
@@ -34,6 +47,21 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow around the game container */
     background: rgba(255, 255, 255, 0.8); /* Slightly transparent white for the game container */
     border-radius: 10px; /* Rounded corners for the game container */
+    }
+}
+
+#game-area {
+    flex: 1; /* Take up the other half */
+    /* Other styles for your game area */
+}
+
+@media (max-width: 768px) {
+    #instructions-container {
+        flex-direction: column; /* Stack the instructions and game area on small screens */
+    }
+
+    #how-to-play {
+        padding-right: 0; /* Remove right padding on small screens */
     }
 }
 
