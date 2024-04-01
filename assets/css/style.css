@@ -46,7 +46,7 @@ body, html {
 }
 
 #choices button:hover {
-    background-color: rgba(0, 123, 255, 1); /* Darker blue on hover */
+    background-color: #0056b3; /* Darker shade for the button background on hover */
 }
 
 #result {
@@ -54,4 +54,5 @@ body, html {
     background: rgba(255, 255, 255, 0.9); /* Slightly more opaque white for the result container */
     padding: 10px;
     border-radius: 5px; /* Rounded corners for the result container */
+    color: #1a1a1a; /* Dark color for result text for better visibility */
 }
