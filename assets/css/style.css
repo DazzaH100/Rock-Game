@@ -37,11 +37,11 @@ body, html {
     margin: 5px;
     width: 18%;
     cursor: pointer;
-    border: none;
+    border: 1px solid #0056b3; /* Border color that complements the button background */
     border-radius: 5px; /* Rounded corners for buttons */
     font-weight: bold;
-    color: #ffffff; /* White text color */
-    background: rgba(0, 123, 255, 0.8); /* Semi-transparent bootstrap primary blue for buttons */
+    color: #ffffff; /* White color text for buttons */
+    background-color: #007bff; /* A contrasting background color for the buttons */
     transition: background-color 0.3s; /* Smooth transition for button background color */
 }
 
